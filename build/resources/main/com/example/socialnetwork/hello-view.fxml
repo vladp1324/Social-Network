@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<HBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.socialnetwork.gui.ControllerMain">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <VBox alignment="CENTER" spacing="15.0">
+        <Button onAction="#onAddUserButton" text="Add user"/>
+        <Button onAction="#onDeleteUserButton" text="Delete user"/>
+        <Button onAction="#onModifyUserButton" text="Modify user"/>
+    </VBox>
+    <TableView fx:id="userTableView">
+        <columns>
+            <TableColumn fx:id="idUser" text="ID"/>
+            <TableColumn fx:id="firstNameUser" text="First name"/>
+            <TableColumn fx:id="lastNameUser" text="Last name"/>
+        </columns>
+    </TableView>
+    <TableView fx:id="friendshipTableView">
+        <columns>
+            <TableColumn fx:id="idFriendship" text="ID"/>
+            <TableColumn fx:id="user1Column" text="user1"/>
+            <TableColumn fx:id="user2Column" text="user2"/>
+            <TableColumn fx:id="friendsFromColumn" text="FriendsFrom"/>
+        </columns>
+    </TableView>
+</HBox>

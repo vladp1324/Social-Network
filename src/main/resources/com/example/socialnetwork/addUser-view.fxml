@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.socialnetwork.gui.ControllerAdd">
+    <children>
+        <Label fx:id="textAddUser" layoutX="15" style="-fx-font-size: 20" />
+        <VBox layoutX="170" layoutY="40" spacing="15">
+            <TextField fx:id="firstNameTextField" layoutX="15" layoutY="40" promptText="Enter first name" />
+            <TextField fx:id="lastNameTextField" layoutX="15" layoutY="80" promptText="Enter last name" />
+        </VBox>
+        <Button layoutX="194.0" layoutY="137.0" onAction="#onAddButton" prefHeight="41.0" prefWidth="103.0" text="Add user">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+    </children>
+</AnchorPane>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="394.0" prefWidth="1019.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.socialnetwork.gui.ControllerMessage">
+    <children>
+        <TableView fx:id="userTableView" layoutX="209.0" layoutY="14.0" prefHeight="294.0" prefWidth="240.0">
+            <columns>
+                <TableColumn fx:id="idUser" text="ID" />
+                <TableColumn fx:id="firstNameUser" text="First name" />
+                <TableColumn fx:id="lastNameUser" text="Last name" />
+            </columns>
+        </TableView>
+        <TableView fx:id="messageTableView" layoutX="538.0" layoutY="14.0" prefHeight="294.0" prefWidth="650.0">
+            <columns>
+                <TableColumn fx:id="idMessage" text="id" />
+                <TableColumn fx:id="userfrom" text="user from" />
+                <TableColumn fx:id="userto" text="user to" />
+                <TableColumn fx:id="text" text="message" />
+                <TableColumn fx:id="dateTime" text="dateTime" />
+                <TableColumn fx:id="idreply" text="id message reply" />
+            </columns>
+        </TableView>
+        <Button layoutX="459.0" layoutY="320.0" onAction="#onSendMessageButton" prefHeight="26.0" prefWidth="78.0" text="Send" />
+        <TextField fx:id="message" layoutX="205.0" layoutY="320.0" prefHeight="26.0" prefWidth="247.0" />
+        <Button layoutX="35.0" layoutY="85.0" onAction="#onMessageOrderedByDate" text="Show conversation" />
+        <ComboBox fx:id="userComboBox" layoutX="29.0" layoutY="14.0" prefHeight="26.0" prefWidth="165.0" />
+        <Button layoutX="835.0" layoutY="320.0" onAction="#onRefreshButton" text="Refresh" />
+        <Button layoutX="449.0" layoutY="111.0" onAction="#onPreviousUser" text="Previous" />
+        <Button layoutX="449.0" layoutY="161.0" onAction="#onNextUser" text="Next" />
+        <Button layoutX="564.0" layoutY="307.0" onAction="#onPreviousMessage" text="Previous" />
+        <Button layoutX="646.0" layoutY="307.0" onAction="#onNextMessage" text="Next" />
+    </children>
+</AnchorPane>
