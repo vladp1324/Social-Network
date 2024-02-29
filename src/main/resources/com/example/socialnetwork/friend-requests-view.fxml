@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="400.0" prefWidth="389.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.socialnetwork.gui.ControllerFriendRequests">
+    <children>
+
+        <Label layoutX="110.0" layoutY="26.0" text="Friend requests">
+            <font>
+                <Font size="25.0" />
+            </font></Label>
+
+        <ListView fx:id="friendRequestsListView" layoutX="71.0" layoutY="84.0" prefHeight="252.0" prefWidth="248.0" />
+
+        <Button layoutX="71.0" layoutY="350.0" onAction="#onAcceptFriendRequest" prefHeight="26.0" prefWidth="73.0" text="Accept" />
+        <Button layoutX="244.0" layoutY="350.0" onAction="#onDeclineFriendRequest" prefHeight="26.0" prefWidth="74.0" text="Decline" />
+
+    </children>
+</AnchorPane>

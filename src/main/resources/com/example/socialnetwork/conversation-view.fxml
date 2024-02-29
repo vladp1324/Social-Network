@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="380.0" prefWidth="627.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.socialnetwork.gui.ControllerConversation">
+    <children>
+        <ListView fx:id="MessagesListView" layoutX="88.0" prefHeight="319.0" prefWidth="452.0" />
+        <TextField fx:id="messageTextField" layoutX="88.0" layoutY="334.0" prefHeight="26.0" prefWidth="365.0" />
+        <Button layoutX="468.0" layoutY="334.0" onAction="#onSendMessage" prefHeight="26.0" prefWidth="71.0" text="Send" />
+    </children>
+</AnchorPane>

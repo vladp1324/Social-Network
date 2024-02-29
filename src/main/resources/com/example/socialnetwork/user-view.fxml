@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="451.0" prefWidth="608.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.socialnetwork.gui.ControllerUser">
+    <children>
+        <Label layoutX="104.0" layoutY="69.0" text="Users">
+            <font>
+                <Font name="System Bold" size="28.0" />
+            </font></Label>
+
+        <ListView fx:id="usersListView" layoutX="17.0" layoutY="109.0" prefHeight="294.0" prefWidth="248.0" />
+        <Button layoutX="82.0" layoutY="412.0" onAction="#onSendFriendRequest" text="Send friendrequest" />
+
+        <Label layoutX="388.0" layoutY="69.0" text="Friends">
+            <font>
+                <Font name="System Bold" size="28.0" />
+            </font></Label>
+        <ListView fx:id="friendsListView" layoutX="319.0" layoutY="109.0" prefHeight="179.0" prefWidth="248.0" />
+        <TextField fx:id="messageTextField" layoutX="319.0" layoutY="302.0" prefHeight="26.0" prefWidth="181.0" />
+        <Button layoutX="513.0" layoutY="302.0" onAction="#onSendMessage" prefHeight="26.0" prefWidth="54.0" text="Send" />
+        <Button layoutX="319.0" layoutY="343.0" onAction="#onOpenConversation" text="Open conversation" />
+        <Button layoutX="483.0" layoutY="343.0" onAction="#onDeleteFriend" text="Delete friend" />
+
+        <Button layoutX="498.0" layoutY="14.0" onAction="#onShowFriendRequests" text="Friend requests" />
+        <Button layoutX="17.0" layoutY="14.0" onAction="#onManageAccount" text="Manage account" />
+
+        <Button layoutX="540.0" layoutY="412.0" onAction="#onLogout" text="Logout" />
+
+    </children>
+</AnchorPane>

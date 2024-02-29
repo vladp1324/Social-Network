@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="304.0" prefWidth="357.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.socialnetwork.gui.ControllerAdd">
+    <children>
+        <Label layoutX="145.0" layoutY="22.0" text="Sign up">
+            <font>
+                <Font size="27.0" />
+            </font></Label>
+
+        <TextField fx:id="firstNameTextField" layoutX="116.0" layoutY="79.0" />
+        <TextField fx:id="lastNameTextField" layoutX="116.0" layoutY="119.0" />
+        <TextField fx:id="usernameTextField" layoutX="116.0" layoutY="159.0" />
+        <TextField fx:id="passwordTextField" layoutX="116.0" layoutY="198.0" />
+
+
+        <Label layoutX="53.0" layoutY="82.0" prefHeight="18.0" prefWidth="62.0" text="First name" />
+        <Label layoutX="52.0" layoutY="122.0" prefHeight="18.0" prefWidth="54.0" text="Last name" />
+        <Label layoutX="52.0" layoutY="163.0" text="Username" />
+        <Label layoutX="53.0" layoutY="202.0" text="Password" />
+
+        <Button layoutX="105.0" layoutY="248.0" onAction="#onAddButton" prefHeight="30.0" prefWidth="172.0" text="Create account">
+            <font>
+                <Font size="14.0" />
+            </font></Button>
+
+        <Button onAction="#onBackButton" text="&lt;" />
+    </children>
+</AnchorPane>
