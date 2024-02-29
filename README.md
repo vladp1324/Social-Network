@@ -1,4 +1,4 @@
-#Social-Network Project
+# Social-Network Project
 
 ## Description
 Social-Network is a Java-based application designed to mimic the functionalities of a typical social networking platform. Developed using IntelliJ, this project includes features such as user authentication, account management, friend management, messaging, and more.
