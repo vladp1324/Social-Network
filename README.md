@@ -11,16 +11,21 @@ Social-Network is a Java-based application designed to mimic the functionalities
 
 ## Screenshots
 *Login Page*
+
 ![Login Page](Screenshots/login.PNG)
 
 *Signup Page*
+
 ![Signup Page](Screenshots/signup.PNG)
 
 *Main Page*
+
 ![Main Page](Screenshots/mainpage.PNG)
 
 *Friend Requests Page*
+
 ![Friend Requests](Screenshots/friendrequests.PNG)
 
 *Manage Account Page*
+
 ![Manage Account](Screenshots/manageaccount.PNG)
