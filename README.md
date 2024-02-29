@@ -10,17 +10,17 @@ Social-Network is a Java-based application designed to mimic the functionalities
 - **Friend Requests:** Users can send, accept, or decline friend requests.
 
 ## Screenshots
-![Login Page](Screenshots/login.png)
+![Login Page](Screenshots/login.PNG)
 *Login Page*
 
-![Signup Page](Screenshots/signup.png)
+![Signup Page](Screenshots/signup.PNG)
 *Signup Page*
 
-![Main Page](Screenshots/mainpage.png)
+![Main Page](Screenshots/mainpage.PNG)
 *Main Page*
 
-![Friend Requests](Screenshots/friendrequests.png)
+![Friend Requests](Screenshots/friendrequests.PNG)
 *Friend Requests Page*
 
-![Manage Account](Screenshots/manageaccount.png)
+![Manage Account](Screenshots/manageaccount.PNG)
 *Manage Account Page*
